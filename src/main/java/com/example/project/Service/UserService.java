@@ -1,7 +1,8 @@
 package com.example.project.Service;
 
-public interface UserService {
+import com.example.project.Model.User;
 
-    String queryById(Long id);
+public interface UserService {
+    User queryById(Long id);
 
 }

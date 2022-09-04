@@ -10,7 +10,7 @@ spring: #springboot的配置
   datasource: #定义数据源
     #3306是mysql的端口号。serverTimezone是定义时区，照抄就好，mysql高版本需要定义这些东西
     #useSSL也是某些高版本mysql需要问有没有用SSL连接
-    url: jdbc:mysql://43.143.45.157:3306/mysql?serverTimezone=GMT%2B8&useSSL=FALSE
+    url: jdbc:mysql://43.143.45.157:3306/test?serverTimezone=GMT%2B8&useSSL=FALSE
     username: root  #数据库用户名，root为管理员
     password: zhuhualiang123! #该数据库用户的密码
     # 使用druid数据源
